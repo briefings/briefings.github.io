@@ -40,7 +40,7 @@ relational operators |[$\checkmark$](https://github.com/briefings/buildings/blob
 
 ### Aggregating, Ordering
 
-&nbsp; |example |comment
+&nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules ...</span>
 :--- |:--- |:---
 **fundamentals** | |
 aggregating |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) |count(), sum(), avg(), min(), max()
