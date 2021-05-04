@@ -6,9 +6,6 @@ nav_order: 1
 ---
 
 # Querying
-
-<br>
-
 {: .no_toc }
 
 ## Table of contents
