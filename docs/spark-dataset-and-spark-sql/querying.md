@@ -3,10 +3,14 @@ layout: default
 title: Querying
 parent: Spark Dataset & Spark SQL
 nav_order: 1
+custom_js:
+- latex
 ---
 
 # Querying
 {: .no_toc }
+
+<br>
 
 ## Table of contents
 {: .no_toc .text-delta }
