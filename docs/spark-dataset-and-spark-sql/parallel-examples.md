@@ -27,7 +27,7 @@ custom_js:
 
 ### Fundamentals
 
-&nbsp; |example |comment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; |example |comment <span color='white'>Case statements include a sequence of if-then rules, and an else.</span>
 :--- |:--- |:---
 **fundamentals** | |
 filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |where, filter
@@ -53,7 +53,7 @@ ordering|[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/m
 &nbsp; |example |comment
 :--- |:--- |:---
 **fundamentals** | |
-case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) |case statements include a sequence of if-then rules, and an else.
+case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) |Case statements include a sequence of if-then rules, and an else.
 
 <br>
 
