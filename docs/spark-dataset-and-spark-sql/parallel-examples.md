@@ -27,30 +27,30 @@ custom_js:
 
 ### Fundamentals
 
-&nbsp; |buildings |stocks |comment
-:--- |:--- |:--- |:---
-**fundamentals** | | |
-filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) | |where, filter
- |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) | |limit
- | | |distinct, fetch
-logical operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala) | |like, in, between, is null, etc. [not, or, and]
-relational operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala) | |$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$
+&nbsp; |example |comment
+:--- |:--- |:---
+**fundamentals** | |
+filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |where, filter
+ |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) |limit
+ | |distinct, fetch
+logical operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala) |like, in, between, is null, etc. [not, or, and]
+relational operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala) |$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$
 
 <br>
 
 ### Aggregating, Ordering
 
-&nbsp; |buildings |stocks |comment
-:--- |:--- |:--- |:---
-**fundamentals** | | |
-aggregating | |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) |count(), sum(), avg(), min(), max()
-ordering|[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) | |order by
+&nbsp; |example |comment
+:--- |:--- |:---
+**fundamentals** | |
+aggregating |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) |count(), sum(), avg(), min(), max()
+ordering|[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) |order by
 
 <br>
 
 ### Conditionals
 
-&nbsp; |stocks |comment
+&nbsp; |example |comment
 :--- |:--- |:---
 **fundamentals** | |
 case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) |case statements include a sequence of if-then rules, and an else.
@@ -59,11 +59,11 @@ case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/
 
 ### Grouping
 
-&nbsp; |buildings<br> |bikeshare<br> |comment
-:--- |:--- |:--- |:---
-**fundamentals** | | |
-group by, having |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) | |Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
-hierarchical arithmetic | |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala) |rollup()
+&nbsp; |example |comment
+:--- |:--- |:---
+**fundamentals** | |
+group by, having |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) |Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
+hierarchical arithmetic |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala) |rollup()
 
 Note:
 * $^{1}$Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
@@ -72,7 +72,7 @@ Note:
 
 ### Window Operations
 
-&nbsp; |bikeshare |comment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; |example |comment
 :--- |:--- |:---
 **aggregate** | |
 sum |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) |
