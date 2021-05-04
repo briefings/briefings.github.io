@@ -16,7 +16,7 @@ nav_order: 1
 
 ---
 
-## Introduction
+## Why Datasets?
 
 Within Apache Spark engineers & scientists may query data [programmatically via SQL](http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically) or [via Dataset objects](https://databricks.com/glossary/what-are-datasets).  A valid question is, why Dataset objects?  Amongst other characteristics, Dataset objects are strongly typed and
 
