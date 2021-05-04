@@ -3,6 +3,8 @@ layout: default
 title: Parallel Examples
 parent: Spark Dataset & Spark SQL
 nav_order: 2
+custom_js:
+- latex
 ---
 
 # Parallel Examples
@@ -17,10 +19,10 @@ nav_order: 2
 ---
 
 
-fundamentals |buildings |stocks |firms |bikeshare |comment
-:--- |:--- |:--- |:--- |:--- |:---
-filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) | | | |
-logical operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala) | | | |
-relational operators | | | | |
-basic clauses | | | | |
-arithmetic | | | | |  
+fundamentals |buildings |comment
+:--- |:--- |:---
+filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |
+logical operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala) |
+relational operators | |
+basic clauses | |
+arithmetic | | 
