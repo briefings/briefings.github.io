@@ -59,7 +59,7 @@ case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/
 
 ### Grouping
 
-&nbsp; |buildings |bikeshare |comment
+&nbsp; |buildings<br> |bikeshare<br> |comment
 :--- |:--- |:--- |:---
 **fundamentals** | | |
 group by, having |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) | |Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
@@ -72,7 +72,7 @@ Note:
 
 ### Window Operations
 
-&nbsp; |bikeshare |comment
+&nbsp; |bikeshare |comment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 :--- |:--- |:---
 **aggregate** | |
 sum |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) |
@@ -85,14 +85,15 @@ row number |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/sr
 ## Upcoming
 
 <p>The examples will illustrate</p>
-          <ul>
-            <li><b>Combinatorial queries.</b> Via $cube()$</li>
-            <li><b>Joins.</b>  More join examples, e.g., right outer join, full outer join,  <span class="tooltip">left semi join
-              <span class="tooltiptext" style="font-size: small">filters the left table w.r.t. keys present in the right table</span></span>,
-              <span class="tooltip">left anti join <span class="tooltiptext" style="font-size: small">filters the left table for records
-                that are NOT present in the right table</span> </span></li>
-            <li><b>Pivoting.</b>  Pivoting via Dataset objects is explicit and elegant.  The
-              <a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/sources/DataReconfiguration.scala">DataReconfiguration</a>
-              class, which reconfigures the data used by the <a href="https://github.com/briefings/buildings">buildings project/module</a>,
-              uses the Dataset pivot function for a reconfiguration step.</li>
-          </ul>
+
+<ul>
+  <li><b>Combinatorial queries.</b> Via $cube()$</li>
+  <li><b>Joins.</b>  More join examples, e.g., right outer join, full outer join,  <span class="tooltip">left semi join
+    <span class="tooltiptext" style="font-size: small">filters the left table w.r.t. keys present in the right table</span></span>,
+    <span class="tooltip">left anti join <span class="tooltiptext" style="font-size: small">filters the left table for records
+      that are NOT present in the right table</span> </span></li>
+  <li><b>Pivoting.</b>  Pivoting via Dataset objects is explicit and elegant.  The
+    <a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/sources/DataReconfiguration.scala">DataReconfiguration</a>
+    class, which reconfigures the data used by the <a href="https://github.com/briefings/buildings">buildings project/module</a>,
+    uses the Dataset pivot function for a reconfiguration step.</li>
+</ul>
