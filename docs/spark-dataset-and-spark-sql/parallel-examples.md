@@ -27,7 +27,7 @@ custom_js:
 
 ### Fundamentals
 
-&nbsp; |example |comment
+&nbsp; |example |comment                     
 :--- |:--- |:---
 **fundamentals** | |
 filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |where, filter
