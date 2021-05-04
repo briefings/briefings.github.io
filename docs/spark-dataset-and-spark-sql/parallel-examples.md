@@ -27,7 +27,7 @@ custom_js:
 
 ### Fundamentals
 
-&nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules, and an else.</span>
+&nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules ...</span>
 :--- |:--- |:---
 **fundamentals** | |
 filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |where, filter
