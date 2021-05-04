@@ -9,11 +9,13 @@ permalink: /docs/Spark-dataset-and-spark-sql
 # Spark Dataset & Spark SQL
 
 Spark Dataset or Spark SQL
-
 {: .fs-6 .fw-300 }
 
-<p>Within Apache Spark engineers & scientists may query data
-  <a href="http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically">programmatically via SQL</a> or <a href="https://databricks.com/glossary/what-are-datasets">via Dataset objects</a>.  A valid question is, why Dataset objects?  Amongst other characteristics, Dataset objects are strongly typed and</p>
+
+## Introduction
+
+Within Apache Spark engineers & scientists may query data
+  [programmatically via SQL](http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically) or [via Dataset objects](https://databricks.com/glossary/what-are-datasets).  A valid question is, why Dataset objects?  Amongst other characteristics, Dataset objects are strongly typed and
 
 <p style="margin-left: 25px; margin-right: 25px; font-size: 95%">
   <span style="color: #555555">&ldquo;... are "lazy", i.e. computations are only triggered when an action is invoked. Internally, a Dataset represents a
