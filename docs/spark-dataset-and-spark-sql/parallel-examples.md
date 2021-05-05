@@ -84,8 +84,7 @@ row number |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/sr
 
 ## Upcoming
 
-<p>The examples will illustrate</p>
-
+The examples will illustrate
 <ul>
   <li><b>Combinatorial queries.</b> Via $cube()$</li>
   <li><b>Joins.</b>  More join examples, e.g., right outer join, full outer join,  <span class="tooltip">left semi join
