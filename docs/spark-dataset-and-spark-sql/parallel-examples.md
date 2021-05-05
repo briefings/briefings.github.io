@@ -28,63 +28,47 @@ custom_css:
 ## In focus
 
 ### Implicit & Explicit Filtering Operators
-
-filtering<br>
-$\qquad \cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
-$\qquad \cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
-$\qquad \cdot$ distinct, fetch
-
-logical operators<br>
-$\qquad \cdot$ [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)<br>
-$\qquad \cdot$ not, or, and
-
-relational operators<br>
-$\qquad \cdot$ [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
-
-
 <br>
 
+filtering<br>
+$\quad \cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
+$\quad \cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
+$\quad \cdot$ distinct, fetch
 
-&nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules ...</span>
-:--- |:--- |:---
-**fundamentals** | |
-filtering |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) |where, filter
- |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) |limit
- | |distinct, fetch
-logical operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala) |like, in, between, is null, etc. [not, or, and]
-relational operators |[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala) |$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$
+logical operators<br>
+$\quad \cdot$ [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)<br>
+$\quad \cdot$ not, or, and
+
+relational operators<br>
+$\quad \cdot$ [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
 
 <br>
 
 ### Aggregating, Ordering
+<br>
 
-&nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules ...</span>
-:--- |:--- |:---
-**fundamentals** | |
-aggregating |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) |count(), sum(), avg(), min(), max()
-ordering|[$\checkmark$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) |order by
+aggregating<br>
+$\quad \cdot$ [count(), sum(), avg(), min(), max()](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala)
+
+ordering<br>
+$\quad \cdot$ [order by](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)
 
 <br>
 
 ### Conditionals
+<br>
 
-&nbsp; |example |comment
-:--- |:--- |:---
-**fundamentals** | |
-case statements |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) |Case statements include a sequence of if-then rules, and an else.
+conditionals<br>
+$\quad \cdot$ [case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala); Case statements include a sequence of if-then rules, and an else.
 
 <br>
 
 ### Grouping
 
-&nbsp; |example |comment
-:--- |:--- |:---
-**fundamentals** | |
-group by, having |[$\checkmark$](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) |Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
-hierarchical arithmetic |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala) |rollup()
+grouping<br>
+$\quad \cdot$ [group by, having](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala); Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having<br>
+$\quad \cdot$ [roll up](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala); For hierarchical arithmetic.
 
-Note:
-* $^{1}$Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having
 
 <br>
 
