@@ -1,0 +1,70 @@
+/* LaTeX
+   ========================================================================== */
+.equation {
+    padding-left: 60px;
+}
+
+
+/* Figures
+   ========================================================================== */
+figcaption {
+    color: #545252;
+    font-size: 0.9em;
+    padding: 15px;
+    text-align: left;
+}
+
+
+/* Tables
+   ========================================================================== */
+
+table {
+    width:55%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    border: 0 solid black;
+    float:left;
+    margin-left: 60px
+}
+
+
+tr {
+    padding: 0;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+
+/* Lists
+   ========================================================================== */
+
+ul {
+    padding-top: 4px;
+}
+li {
+    padding-bottom: 4px;
+}
+
+dl {
+    display: block;
+    margin-left: 10px;
+}
+dt {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+dd {
+    display: block;
+    margin-left: 25px;
+    margin-top: 0;
+}
