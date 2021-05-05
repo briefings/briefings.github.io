@@ -28,7 +28,6 @@ custom_css:
 ## In focus
 
 ### Implicit & Explicit Filtering Operators
-<br>
 
 filtering<br>
 $\quad \cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
@@ -45,7 +44,6 @@ $\quad \cdot$ [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/
 <br>
 
 ### Aggregating, Ordering
-<br>
 
 aggregating<br>
 $\quad \cdot$ [count(), sum(), avg(), min(), max()](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala)
@@ -56,7 +54,6 @@ $\quad \cdot$ [order by](https://github.com/briefings/buildings/blob/master/src/
 <br>
 
 ### Conditionals
-<br>
 
 conditionals<br>
 $\quad \cdot$ [case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala); Case statements include a sequence of if-then rules, and an else.
@@ -65,9 +62,10 @@ $\quad \cdot$ [case statement](https://github.com/briefings/stocks/blob/master/s
 
 ### Grouping
 
-grouping<br>
-$\quad \cdot$ [group by, having](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala); Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having<br>
-$\quad \cdot$ [roll up](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala); For hierarchical arithmetic.
+&nbsp; |comment
+:--- |:---
+[group by, having](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) | Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having<br>
+[roll up](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala) | For hierarchical arithmetic.
 
 
 <br>
