@@ -29,17 +29,10 @@ custom_css:
 
 ### Implicit & Explicit Filtering Operators
 
-filtering
-* [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)
-* [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)
-* distinct, fetch
-
-filtering
-<ul>
-  <li><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala">where, filter</a></li>
-  <li><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala">limit</a></li>
-  <li>distinct, fetch</li>
-</ul>
+filtering<br>
+&nbsp; $\cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
+&nbsp; $\cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
+&nbsp; $\cdot$ distinct, fetch
 
 logical operators
 * [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)
