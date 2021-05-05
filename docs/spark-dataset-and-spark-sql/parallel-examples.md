@@ -29,7 +29,7 @@ custom_css:
 
 ### Implicit & Explicit Filtering Operators
 
-Thus far, the examples include **(a)** explicit filtering operators [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) and [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala), **(b)** logical operators [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala), and **(c)** relational operators [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)  [Logical operators: not, or, and.  Filtering operators: distinct, fetch.]
+Thus far, the examples include **(a)** explicit filtering operators [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) and [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala), **(b)** logical operators [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala), and **(c)** relational operators [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala) &nbsp; [**Pending** → Logical operators: not, or, and.  Filtering operators: distinct, fetch.]
 
 <br>
 
