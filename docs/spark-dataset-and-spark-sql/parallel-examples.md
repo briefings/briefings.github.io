@@ -55,8 +55,9 @@ $\quad \cdot$ [order by](https://github.com/briefings/buildings/blob/master/src/
 
 ### Conditionals
 
-conditionals<br>
-$\quad \cdot$ [case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala); Case statements include a sequence of if-then rules, and an else.
+&nbsp; |comment
+:--- |:---
+[case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) | Each case statement includes a sequence of *if-then* rules, and an *else*.
 
 <br>
 
@@ -72,13 +73,13 @@ $\quad \cdot$ [case statement](https://github.com/briefings/stocks/blob/master/s
 
 ### Window Operations
 
-&nbsp; |example |comment
-:--- |:--- |:---
-**aggregate** | |
-sum |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) |
-**ranking** | |
-rank, dense rank |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala) |Per window, if there are multiple equivalent values the dense rank function will ...
-row number |[$\checkmark$](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala) |
+&nbsp; |comment
+:--- |:---
+**aggregating** |
+[sum](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) |
+**ranking** |
+[rank, dense rank](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala) |Per window, if there are multiple equivalent values the dense rank function will ...
+[row number](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala) |
 
 <br>
 
