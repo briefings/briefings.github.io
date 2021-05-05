@@ -3,6 +3,7 @@ layout: default
 title: Background
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 1
+permalink:
 custom_js:
 - latex
 ---
