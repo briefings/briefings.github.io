@@ -30,16 +30,16 @@ custom_css:
 ### Implicit & Explicit Filtering Operators
 
 filtering<br>
-&nbsp; $\cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
-&nbsp; $\cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
-&nbsp; $\cdot$ distinct, fetch
+$\qquad \cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
+$\qquad \cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
+$\qquad \cdot$ distinct, fetch
 
-logical operators
-* [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)
-* not, or, and
+logical operators<br>
+$\qquad \cdot$ [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)<br>
+$\qquad \cdot$ not, or, and
 
-relational operators
-* [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
+relational operators<br>
+$\qquad \cdot$ [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
 
 
 <br>
