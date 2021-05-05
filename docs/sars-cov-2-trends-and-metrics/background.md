@@ -25,9 +25,10 @@ custom_js:
 
 <p>This project is focused on measures, metrics, trends, and models for understanding and anticipating the spread of coronavirus disease 2019 (COVID-2019).  The measures, metrics, and models are explored/developed via SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) field tests data; tests data and measures thereof.</p>
 
-The country in focus is the United States, and the data sources are [COVID Tracking Project](https://covidtracking.com){:target="\_blank"}, <a href='https://github.com/CSSEGISandData/COVID-19' target="\_blank">Johns Hopkins University & Medicine</a>, <a href='https://www.census.gov/en.html' target="\_blank">United States Census Bureau</a>, & the <a href='https://www.epa.gov' target="\_blank">United States Environment Protection Agency</a>
+The country in focus is the United States, and the data sources are [COVID Tracking Project](https://covidtracking.com){:target="\_blank"}, <a href='https://github.com/CSSEGISandData/COVID-19' target="\_blank">Johns Hopkins University & Medicine</a>, <a href='https://www.census.gov/en.html' target="\_blank">United States Census Bureau</a>, and the [United States Environment Protection Agency](https://www.epa.gov){:target="\_blank"}.
 
 <p>The graphs and tables of results, alongside explanatory notes and methods, are being prepared for a blog post.  Initially, some notes/observations will be outlined here.</p>
+
 
 ## Explorations
 
