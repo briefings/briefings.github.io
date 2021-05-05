@@ -34,6 +34,13 @@ filtering
 * [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)
 * distinct, fetch
 
+filtering
+<ul>
+  <li><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala">where, filter</a></li>
+  <li><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala">limit</a></li>
+  <li>distinct, fetch</li>
+</ul>
+
 logical operators
 * [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)
 * not, or, and
