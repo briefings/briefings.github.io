@@ -3,7 +3,7 @@ layout: default
 title: Spark Dataset & Spark SQL
 nav_order: 3
 has_children: true
-permalink: /docs/Spark-dataset-and-spark-sql
+permalink: /docs/spark-dataset-and-spark-sql
 ---
 
 # Spark Dataset & Spark SQL
