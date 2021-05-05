@@ -5,6 +5,8 @@ parent: Spark Dataset & Spark SQL
 nav_order: 2
 custom_js:
 - latex
+custom_css:
+- lists
 ---
 
 <br>
@@ -25,7 +27,23 @@ custom_js:
 
 ## In focus
 
-### Fundamentals
+### Implicit & Explicit Filtering Operators
+
+filtering
+* [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)
+* [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)
+* distinct, fetch
+
+logical operators
+* [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)
+* not, or, and
+
+relational operators
+* [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
+
+
+<br>
+
 
 &nbsp; |example |comment <span style="color:white">Case statements include a sequence of if-then rules ...</span>
 :--- |:--- |:---
