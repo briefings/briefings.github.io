@@ -33,6 +33,6 @@ The country in focus is the United States, and the data sources are [COVID Track
 
 &nbsp; | comment
 :--- |:---
-[Impending outbreaks](journal/pages/delta.html) | Can outbreaks be anticipated?
+[Impending outbreaks](sars/journal/pages/delta.html) | Can outbreaks be anticipated?
 [Trends of observations/100K](journal/pages/capita.html) | The veracity, or usefulness, of positive test rates – and similar rates, e.g., death positive, death hospitalised, etc. - depends on (a) underlying data & standards, and (b) calculation standards   Bearing these in mind, and their associated issues, what is possible?</a>
 [Measures of variation, location, symmetry](journal/pages/spreads.html) | Simple illustrations of observations-variations across states.</a>
