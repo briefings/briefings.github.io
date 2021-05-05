@@ -5,8 +5,6 @@ parent: Spark Dataset & Spark SQL
 nav_order: 2
 custom_js:
 - latex
-custom_css:
-- lists
 ---
 
 <br>
