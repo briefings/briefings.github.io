@@ -29,35 +29,20 @@ custom_css:
 
 ### Implicit & Explicit Filtering Operators
 
-filtering<br>
-$\quad \cdot$ [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala)<br>
-$\quad \cdot$ [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)<br>
-$\quad \cdot$ distinct, fetch
-
-logical operators<br>
-$\quad \cdot$ [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala)<br>
-$\quad \cdot$ not, or, and
-
-relational operators<br>
-$\quad \cdot$ [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
+Thus far, the examples include **(a)** explicit filtering operators [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) and [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala), **(b)** logical operators: [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala), and **(c)** relational operators [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala)
 
 <br>
 
 ### Aggregating, Ordering
 
-aggregating<br>
-$\quad \cdot$ [count(), sum(), avg(), min(), max()](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala)
-
-ordering<br>
-$\quad \cdot$ [order by](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala)
+A set of aggregation examples - [count(), sum(), avg(), min(), max()](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) - is illustrated via a stock price series.  And, [order by](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) is illustrated via a buildings data set.
 
 <br>
 
 ### Conditionals
 
-&nbsp; |comment
-:--- |:---
-[case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala) | Each case statement includes a sequence of *if-then* rules, and an *else*.
+The focus herein is the [case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala).  As usual, the case statement is a sequence of *if-then* rules, and an *else*.
+
 
 <br>
 
@@ -75,17 +60,14 @@ $\quad \cdot$ [order by](https://github.com/briefings/buildings/blob/master/src/
 
 &nbsp; |comment
 :--- |:---
-**aggregating** |
-[sum](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) |
-**ranking** |
-[rank, dense rank](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala) |Per window, if there are multiple equivalent values the dense rank function will ...
-[row number](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala) |
+[sum](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) | additions by window
+[rank, dense rank](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala) |assigning ranks per window, Per window, if there are multiple equivalent values the dense rank function will ...
+[row number](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala) | numbering data rows per window
 
 <br>
 
 ## Upcoming
 
-The examples will illustrate
 <ul>
   <li><b>Combinatorial queries.</b> Via $cube()$</li>
   <li><b>Joins.</b>  More join examples, e.g., right outer join, full outer join,  <span class="tooltip">left semi join
