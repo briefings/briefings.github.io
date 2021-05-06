@@ -3,7 +3,7 @@ layout: default
 title: SARS-CoV-2 Trends & Metrics
 nav_order: 2
 has_children: true
-permalink: /briefings/sars-cov-2-trends-and-metrics
+permalink: /briefings/sars
 ---
 
 # SARS-CoV-2 Trends & Metrics
