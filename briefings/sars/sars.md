@@ -3,7 +3,7 @@ layout: default
 title: SARS-CoV-2 Trends & Metrics
 nav_order: 2
 has_children: true
-permalink: /sars
+permalink: sars
 ---
 
 # SARS-CoV-2 Trends & Metrics
