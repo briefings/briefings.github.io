@@ -34,6 +34,6 @@ The country in focus is the United States, and the data sources are [COVID Track
 
 &nbsp; | comment
 :--- |:---
-[Impending outbreaks](journal/pages/delta.html) | Is it possible to anticipate outbreaks of SARS-CoV-2 infections via running percentage changes of cumulative observations per $\mathbf{\small{100K}}$ people, <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods?
+[Impending outbreaks](/journal/pages/delta.html) | Is it possible to anticipate outbreaks of SARS-CoV-2 infections via running percentage changes of cumulative observations per $\mathbf{\small{100K}}$ people, <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods?
 [Trends of *observations*<br>*per 100K*](https://briefings.github.io/sars/journal/pages/capita.html) | The veracity, or usefulness, of positive test rates – and similar rates, e.g., death positive, death hospitalised, etc. - depends on (a) underlying data & standards, and (b) calculation standards.  Bearing these in mind, and their associated issues, what is discernible from unambiguously defined rates trends?
 [Measures of variation,<br>location, and symmetry](https://briefings.github.io/sars/journal/pages/spreads.html) | Simple illustrations of observations-variations across states.
