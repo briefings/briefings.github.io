@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Introductory Notes
 nav_order: 1
-description: "... is focused on brief explorations, modelling, & analysis"
+description: "Briefings is focused on brief explorations, analysis, modelling, and features engineering; and curiosities."
 permalink: /
 ---
 
