@@ -20,11 +20,11 @@ custom_js:
 
 ---
 
+
 ## Introduction
 
-Within Apache Spark engineers & scientists may query data [programmatically via SQL](http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically) or [via Dataset objects](https://databricks.com/glossary/what-are-datasets).  [Upcoming: a lead example w.r.t each approach]
+Within Apache Spark engineers & scientists may query data [programmatically via SQL](http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically) or [via Dataset objects](https://databricks.com/glossary/what-are-datasets).  [<span style="color:#708090">Add an example</span>]
 
-<br>
 
 ## Why Datasets?
 
@@ -39,10 +39,9 @@ A valid question is, why Dataset objects?  Amongst other characteristics, Datase
 
 In addition to this ScalaDoc definition, the Databricks articles <a href="https://databricks.com/glossary/what-are-datasets">What are Datasets?</a> &
 <a href="https://docs.databricks.com/spark/latest/dataframes-datasets/introduction-to-datasets.html">Introduction to Datasets</a>
-are also helpful references.
+are also helpful references.  The [Parallel Examples](parallel-examples.md) section has links to parallel Dataset & SQL queries.
 
 <br>
-
-The **Parallel Examples** section outlines parallel Dataset & SQL queries.
-
+<br>
+<br>
 <br>
