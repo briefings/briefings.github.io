@@ -8,5 +8,5 @@ permalink: /briefings/sars
 
 # SARS-CoV-2 Trends & Metrics
 
-Exploring metrics and models for understanding, anticipating, and/or predicting SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) infections.
+Exploring metrics and models for understanding, anticipating, and/or predicting <span class="tooltip">SARS-CoV-2<span class="tooltiptext">Severe Acute Respiratory Syndrome Coronavirus 2</span></span> infections.
 {: .fs-6 .fw-300 }
