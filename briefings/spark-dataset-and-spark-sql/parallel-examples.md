@@ -32,6 +32,7 @@ The **sample programs** of each table link to examples within Apache Spark progr
 * [Washington D.C. Capital BikeShare data](https://github.com/briefings/bikeshare)
 * [United States Census Bureau buildings data](https://github.com/briefings/buildings)
 
+<br>
 
 ### Filtering Operators
 
@@ -59,6 +60,7 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
   </tr>
 </table>
 
+<br>
 
 ### Aggregating, Ordering
 
@@ -80,6 +82,8 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
   </tr>
 </table>
 
+<br>
+
 ### Conditionals
 
 <table>
@@ -95,6 +99,8 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
     <td></td>
   </tr>
 </table>
+
+<br>
 
 ### Grouping
 
@@ -116,6 +122,7 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
   </tr>
 </table>
 
+<br>
 
 ### Window Operations
 
@@ -141,6 +148,7 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
   </tr>
 </table>
 
+<br>
 <br>
 
 ## Upcoming
