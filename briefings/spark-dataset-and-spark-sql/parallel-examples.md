@@ -51,7 +51,7 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
     <td>Logical operators.</td>
   </tr>
   <tr>    
-    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala" target="\_blank">$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$</a></td>
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala" target="\_blank">$=$, $\neq$, $\gt$, $\lt$, $\ge$, $\le$</a></td>
     <td>Relational operators.</td>
   </tr>
   <tr>
