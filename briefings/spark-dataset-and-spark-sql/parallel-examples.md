@@ -47,11 +47,11 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
     <td>Explicit filtering operators.</td>
   </tr>
   <tr>    
-    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala" target="\_blank">like, in, between, is null</a></td>
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala" target="\_blank">like, in, between,<br>is null</a></td>
     <td>Logical operators.</td>
   </tr>
   <tr>    
-    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala" target="\_blank">$=$, $\neq$, $\gt$, $\lt$, $\ge$, $\le$</a></td>
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala" target="\_blank">$=$, $\neq$, $\gt$, $\lt$,<br>$\ge$, $\le$</a></td>
     <td>Relational operators.</td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ The examples do not yet include **(a)** the logical operators *not, or, and*, an
       <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
   </tr>
   <tr>    
-    <td><a href="https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala" target="\_blank">count(), sum(), avg(), min(), max()</a></td>
+    <td><a href="https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala" target="\_blank">count(), sum(), avg(),<br>min(), max()</a></td>
     <td>For aggregating</td>
   </tr>
   <tr>    
