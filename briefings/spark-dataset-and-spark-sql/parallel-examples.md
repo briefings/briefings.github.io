@@ -25,12 +25,14 @@ custom_js:
 
 ## Examples
 
-The **sample programs** of each table link to examples within Apache Spark programs.  The programs explore
+The <span style="color: #778899"><i>sample programs</i></span> of each table link to examples within Apache Spark programs.  The programs explore
 
-* [Apple stock prices](https://github.com/briefings/stocks)
-* [A subset of CrunchBase companies data](https://github.com/briefings/firms)
-* [Washington D.C. Capital BikeShare data](https://github.com/briefings/bikeshare)
-* [United States Census Bureau buildings data](https://github.com/briefings/buildings)
+<ul style="margin-left:35px">
+  <li><a href="https://github.com/briefings/stocks" target="\_blank">Apple stock prices</a></li>
+  <li><a href="https://github.com/briefings/firms" target="\_blank">A subset of CrunchBase companies data</a></li>
+  <li><a href="https://github.com/briefings/bikeshare" target="\_blank">Washington D.C. Capital BikeShare data</a></li>
+  <li><a href="https://github.com/briefings/buildings" target="\_blank">United States Census Bureau buildings data</a></li>
+</ul>
 
 <br>
 
