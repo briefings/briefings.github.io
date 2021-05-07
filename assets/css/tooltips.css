@@ -36,3 +36,7 @@
     visibility: visible;
     opacity: 1;
 }
+
+.tooltiptext {
+  font-size: 11px;
+}
