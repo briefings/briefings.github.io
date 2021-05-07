@@ -4,6 +4,8 @@ title: SARS-CoV-2 Trends & Metrics
 nav_order: 2
 has_children: true
 permalink: /briefings/sars
+custom_css:
+- tooltips
 ---
 
 # SARS-CoV-2 Trends & Metrics
