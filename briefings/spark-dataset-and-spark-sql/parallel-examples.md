@@ -23,44 +23,123 @@ custom_js:
 ---
 
 
-## In focus
+## Examples
 
-### Implicit & Explicit Filtering Operators
+The **sample programs** of each table link to examples within Apache Spark programs.  The programs explore
 
-Thus far, the examples include **(a)** explicit filtering operators [where, filter](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala) and [limit](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala), **(b)** logical operators [like, in, between, is null](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala), and **(c)** relational operators [$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala) &nbsp; [**Pending** → Logical operators: not, or, and.  Filtering operators: distinct, fetch.]
+* [Apple stock prices](https://github.com/briefings/stocks)
+* [A subset of CrunchBase companies data](https://github.com/briefings/firms)
+* [Washington D.C. Capital BikeShare data](https://github.com/briefings/bikeshare)
+* [United States Census Bureau buildings data](https://github.com/briefings/buildings)
 
-<br>
+
+### Filtering Operators
+
+The examples do not yet include **(a)** the logical operators *not, or, and*, and **(b)** the filtering operators *distinct, fetch*.
+
+<table>
+  <tr>
+      <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FilteringOperators.scala" target="\_blank">where, filter</a>, <a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala" target="\_blank">limit</a> </td>
+    <td>Explicit filtering operators.</td>
+  </tr>
+  <tr>    
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/LogicalOperators.scala" target="\_blank">like, in, between, is null</a></td>
+    <td>Logical operators.</td>
+  </tr>
+  <tr>    
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/RelationalOperators.scala" target="\_blank">$=$, $\\neq$, $\\gt$, $\\lt$, $\\ge$, $\\le$</a></td>
+    <td>Relational operators.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 
 ### Aggregating, Ordering
 
-A set of aggregation examples - [count(), sum(), avg(), min(), max()](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala) - is illustrated via a stock price series.  And, [order by](https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala) is illustrated via a buildings data set.
-
-<br>
+<table>
+  <tr>
+      <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
+  </tr>
+  <tr>    
+    <td><a href="https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Aggregating.scala" target="\_blank">count(), sum(), avg(), min(), max()</a></td>
+    <td>For aggregating</td>
+  </tr>
+  <tr>    
+    <td><a href="https://github.com/briefings/buildings/blob/master/src/main/scala/com/grey/queries/FundamentalClauses.scala" target="\_blank">order by</a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Conditionals
 
-The focus herein is the [case statement](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala).  As usual, the case statement is a sequence of *if-then* rules, and an *else*.
-
-
-<br>
+<table>
+  <tr>
+      <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Conditionals.scala" target="\_blank">case statement</a></td>
+    <td>Read more about the <a href="https://spark.apache.org/docs/latest/api/sql/#when" target="\_blank">case statement</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 ### Grouping
 
-&nbsp; |comment
-:--- |:---
-[group by, having](https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala) | Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having<br>
-[roll up](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala) | For hierarchical arithmetic.
+<table>
+  <tr>
+      <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/stocks/blob/master/src/main/scala/com/grey/queries/Grouping.scala" target="\_blank">group by, having</a></td>
+    <td>Dataset[Row] does not have a having function, instead there are effective proxy functions. Beware of the SQL query structure w.r.t. using Spark SQL having</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/HierarchicalArithmetic.scala" target="\_blank">roll up</a></td>
+    <td>For hierarchical arithmetic.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-
-<br>
 
 ### Window Operations
 
-&nbsp; |comment
-:--- |:---
-[sum](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala) | additions by window
-[rank, dense rank](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala) |assigning ranks per window, Per window, if there are multiple equivalent values the dense rank function will ...
-[row number](https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala) | numbering data rows per window
+<table>
+  <tr>
+      <th style="width:20%;text-align: left;">sample programs</th><th style="text-align: left;">comment</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/ContinuousArithmetic.scala" target="\_blank">sum().over()</a></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/RankingArithmetic.scala" target="\_blank">rank(), dense_rank()</a></td>
+    <td>Read more about <a href="https://spark.apache.org/docs/latest/api/sql/index.html#rank">rank()</a> and <a href="https://spark.apache.org/docs/latest/api/sql/index.html#dense_rank">dense_rank()</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/briefings/bikeshare/blob/master/src/main/scala/com/grey/queries/NumberingArithmetic.scala" target="\_blank">row_number()</a></td>
+    <td>Read more about <a href="https://spark.apache.org/docs/latest/api/sql/index.html#row_number">row_number()</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 <br>
 
@@ -77,3 +156,9 @@ The focus herein is the [case statement](https://github.com/briefings/stocks/blo
     class, which reconfigures the data used by the <a href="https://github.com/briefings/buildings">buildings project/module</a>,
     uses the Dataset pivot function for a reconfiguration step.</li>
 </ul>
+
+
+<br>
+<br>
+<br>
+<br>
