@@ -11,3 +11,5 @@ permalink: /
 
 Brief explorations
 {: .fs-6 .fw-300 }
+
+Each section explains/outlines a mini-project, mini-exploration.
