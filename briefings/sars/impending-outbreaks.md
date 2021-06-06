@@ -30,7 +30,7 @@ custom_js:
 
 <p><b>Let</b></p>
 
-<div class="equation">$\mathcal{C}_{\tau} = \small{100K} \times \Large{\frac{\theta_{\tau}}{(\text{population of the area in question})} }$</div>
+<div class="equation">$\mathcal{C}_{\tau} = \small{100K} \times \Large{\frac{\theta_{\tau}}{\mathcal{P}} }$</div>
 
 <p>wherein</p>
 <table>
@@ -46,7 +46,12 @@ custom_js:
   <tr>
     <td>$\theta_{\tau}$</td><td>The number of observations by date $\tau$</td>
   </tr>
+  <tr>
+    <td>$\mathcal{P}$</td><td>The population of the area in question</td>
+  </tr>
 </table>
+
+<br>
 
 <p><b>Then</b> a percentage change on date $\:\tau\:$ w.r.t. $\:\Delta\:$ days ago is</p>
 
@@ -66,11 +71,13 @@ custom_js:
   </tr>
 </table>
 
+<br>
+
 <p><b>Now</b>, consider the  graph of curves below.  Each point on the 14 days curve, for example, is the
 percentage change relative to 14 days ago; the same logic applies to other "days ago", each having
 its own curve.</p>
 
 <figure>
-  <img src="/assets/images/delta.png" alt="stick" style="width:95%" />
+  <img src="/assets/images/sars/delta.png" alt="stick" style="width:95%" />
   <figcaption>Running percentage changes</figcaption>
 </figure>
