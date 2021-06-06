@@ -26,14 +26,14 @@ custom_js:
 
 ## Anticipating Outbreaks
 
-<p>This exploration is focused on <b>anticipating outbreaks via running percentage changes</b> of <b>cumulative observations per $\mathbf{\small{100K}}$ people</b> <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods.  Why such an approach?  Foremost, a mathematical outline which will make it easier to understand the discussion herein.</p>
+<p>This exploration is focused on --anticipating outbreaks via running percentage changes-- of --cumulative observations per $\mathbf{\small{100K}}$ people-- <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods.  Why such an approach?  Foremost, a mathematical outline which will make it easier to understand the discussion herein.</p>
 
 <p><b>Let</b></p>
 
 <div class="equation">$\mathcal{C}_{\tau} = \small{100K} \times \Large{\frac{\theta_{\tau}}{(\text{population of the area in question})} }$</div>
 
 <p>wherein</p>
-<table>
+<table style="width:55%">
   <tr>
     <th style="width:20%"></th><th>Description</th>
   </tr>
