@@ -35,7 +35,7 @@ custom_js:
 <p>wherein</p>
 <table>
   <tr style="width: 60%;">
-    <th style="width: 16%;"></th><th style="text-align: left;">Description</th>
+    <th style="width: 16%;"></th><th style="width: 32%;text-align: left;">Description</th>
   </tr>
   <tr>
     <td>$\tau$</td><td>Date</td>
