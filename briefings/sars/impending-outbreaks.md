@@ -26,7 +26,7 @@ custom_js:
 
 ## Anticipating Outbreaks
 
-<p>This exploration is focused on --anticipating outbreaks via running percentage changes-- of --cumulative observations per $\mathbf{\small{100K}}$ people-- <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods.  Why such an approach?  Foremost, a mathematical outline which will make it easier to understand the discussion herein.</p>
+<p>This exploration is focused on "anticipating outbreaks via running percentage changes" of "cumulative observations per $\mathbf{\small{100K}}$ people" <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods.  Why such an approach?  Foremost, a mathematical outline which will make it easier to understand the discussion herein.</p>
 
 <p><b>Let</b></p>
 
@@ -77,7 +77,35 @@ custom_js:
 percentage change relative to 14 days ago; the same logic applies to other "days ago", each having
 its own curve.</p>
 
+<br>
+
 <figure>
-  <img src="/assets/images/sars/delta.png" alt="stick" style="width:95%" />
+  <img src="/assets/images/sars/delta.png" alt="stick" style="width:65%" />
   <figcaption>Running percentage changes</figcaption>
 </figure>
+
+<br>
+
+<p>It is <b>the accumulative behaviour of these curves</b> that is of interest due to the following observations/hypotheses</p>
+
+<dl>
+  <dt>Observations: Positives</dt>
+  <dd>
+    <ul>
+      <li>A divergence point, i.e., an x-axis point from whence curves start diverging, is probably a warning of an impending
+        outbreak.  And the probability of the outbreak occurring increases if there weren't any mitigating measures
+        [coincidentally] in place around the same time.</li>
+      <li>converging curves that are approaching zero suggests an improving state of affairs.</li>
+    </ul>
+  </dd>
+  <dt>Observations: Hospitalizations</dt>
+  <dd>
+    <ul>
+      <li>A divergence point is probably a warning that there might be a substantial increase
+        in required hospitalizations.  Such a point should set off a contingency planning alert.</li>
+    </ul>
+  </dd>
+</dl>
+
+<p>I will write more about percentage change curves during the month of January 2021.  Meanwhile, a few
+  graphs are illustrated below.</p>
