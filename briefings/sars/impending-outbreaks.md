@@ -33,9 +33,9 @@ custom_js:
 <div class="equation">$\mathcal{C}_{\tau} = \small{100K} \times \Large{\frac{\theta_{\tau}}{(\text{population of the area in question})} }$</div>
 
 <p>wherein</p>
-<table style="width: 60%;">
-  <tr style="width: 60%;">
-    <th style="width: 35%;"></th><th style="width: 65%;text-align: left;">Description</th>
+<table>
+  <tr>
+    <th style="width: 16%;"></th><th style="text-align: left;">Description</th>
   </tr>
   <tr>
     <td>$\tau$</td><td>Date</td>
