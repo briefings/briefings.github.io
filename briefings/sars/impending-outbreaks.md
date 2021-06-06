@@ -34,7 +34,7 @@ custom_js:
 
 <p>wherein</p>
 <table style="width: 60%;">
-  <tr style="width: 100%;">
+  <tr style="width: 60%;">
     <th style="width: 35%;"></th><th style="width: 65%;text-align: left;">Description</th>
   </tr>
   <tr>
