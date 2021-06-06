@@ -35,7 +35,7 @@ custom_js:
 <p>wherein</p>
 <table>
   <tr>
-    <th style="width: 16%;"></th><th style="text-align: left;">Description</th>
+    <th style="width: 13%;"></th><th style="text-align: left;">Description</th>
   </tr>
   <tr>
     <td>$\tau$</td><td>Date</td>
@@ -47,3 +47,30 @@ custom_js:
     <td>$\theta_{\tau}$</td><td>The number of observations by date $\tau$</td>
   </tr>
 </table>
+
+<p><b>Then</b> a percentage change on date $\:\tau\:$ w.r.t. $\:\Delta\:$ days ago is</p>
+
+<div class="equation">$\text{pc}_{\tau, \Delta} = 100 * \Large{ \frac{C_{\tau} \; - \; C_{\tau - \Delta}}{C_{\tau - \Delta}} }$</div>
+
+<p>noting that</p>
+
+<table>
+  <tr>
+    <th style="width:13%"></th><th style="text-align: left;">Description</th>
+  </tr>
+  <tr>
+    <td>$\Delta$</td><td>Days</td>
+  </tr>
+  <tr>
+    <td>$C_{\tau - \Delta}$</td><td>The cumulative [observations per 100K] value on date $\tau - \Delta$</td>
+  </tr>
+</table>
+
+<p><b>Now</b>, consider the  graph of curves below.  Each point on the 14 days curve, for example, is the
+percentage change relative to 14 days ago; the same logic applies to other "days ago", each having
+its own curve.</p>
+
+<figure>
+  <img src="/assets/images/delta.png" alt="stick" style="width:95%" />
+  <figcaption>Running percentage changes</figcaption>
+</figure>
