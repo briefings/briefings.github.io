@@ -3,6 +3,8 @@ layout: default
 title: Parallel Examples
 parent: Spark Dataset & Spark SQL
 nav_order: 2
+custom_css:
+- tooltips
 custom_js:
 - latex
 ---
