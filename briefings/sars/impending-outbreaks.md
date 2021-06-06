@@ -88,19 +88,21 @@ its own curve.</p>
 
 <p>It is <b>the accumulative behaviour of these curves</b> that is of interest due to the following observations/hypotheses</p>
 
-<div>Observations: Positives</div>
-<ul>
-  <li>A divergence point, i.e., an x-axis point from whence curves start diverging, is probably a warning of an impending
-    outbreak.  And the probability of the outbreak occurring increases if there weren't any mitigating measures
-    [coincidentally] in place around the same time.</li>
-  <li>converging curves that are approaching zero suggests an improving state of affairs.</li>
-</ul>
+<div style="margin-left: 65px">
+  <b>Positives</b>
+  <ul>
+    <li>A divergence point, i.e., an x-axis point from whence curves start diverging, is probably a warning of an impending
+      outbreak.  And the probability of the outbreak occurring increases if there weren't any mitigating measures
+      [coincidentally] in place around the same time.</li>
+    <li>converging curves that are approaching zero suggests an improving state of affairs.</li>
+  </ul>
 
-<div>Observations: Hospitalizations</div>
-<ul>
-  <li>A divergence point is probably a warning that there might be a substantial increase
-    in required hospitalizations.  Such a point should set off a contingency planning alert.</li>
-</ul>
+  <b>Hospitalizations</b>
+  <ul>
+    <li>A divergence point is probably a warning that there might be a substantial increase
+      in required hospitalizations.  Such a point should set off a contingency planning alert.</li>
+  </ul>
+</div>
 
 <p>I will write more about percentage change curves during the month of January 2021.  Meanwhile, a few
   graphs are illustrated below.</p>
