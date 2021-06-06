@@ -2,7 +2,7 @@
 layout: default
 title: Impending Outbreaks
 parent: SARS-CoV-2 Trends & Metrics
-nav_order: 1
+nav_order: 2
 custom_css:
 - tooltips
 - generic
