@@ -34,8 +34,6 @@ custom_js:
   </ul>
 </div>
 
-<br>
-
 and the problems continue, as this 23 November, 2020, piece illustrates
 
 <div style="margin-left: 35px;margin-right: 55px">
