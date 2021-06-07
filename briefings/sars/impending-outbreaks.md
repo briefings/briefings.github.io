@@ -105,10 +105,8 @@ its own curve.</p>
   </ul>
 </div>
 
-<p>I will write more about percentage change curves in future.  Meanwhile, a few graphs are illustrated below.</p>
-
 <br>
 
 ### Graphs
 
-<p>Note, the most consistently available data sets are the tests, positives, and deaths data sets.</p>
+<p>More will be written about percentage change curves in future.  Meanwhile, the links below lead to a few graphs.  Note, the most consistently available data sets are the tests, positives, and deaths data sets.</p>
