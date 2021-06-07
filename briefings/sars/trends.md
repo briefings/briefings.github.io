@@ -26,8 +26,6 @@ custom_js:
 
 <p>The brief focus herein are the continuous per capita graphs that implicitly illustrate continuous rates trends, i.e., continuous <b>positives tests rates</b>,  <b>deaths positives rates</b>, <b>hospitalized positives rates</b>, and <b>deaths hospitalized rates</b> trends. &nbsp; &nbsp; [A notes tab further below briefly discusses positives tests rates, a few observations therein probably apply to all rates.]</p>
 
-<br>
-
 ## Explanation     
 
 <p>The continuous per capita graphs are graphs of observations per $\small{100K}$ people against each other.  For example</p>
@@ -53,8 +51,6 @@ custom_js:
 
 <p>Consider the shapes of the <span class="tooltip">PT<span class="tooltiptext">positives tests</span></span> tab curves.  The more tests a state conducts, the further to the right its curve extends, and if the curve is additionally parallel and “close” to the horizontal axis, the better the state of affairs.  Of course there are issues, e.g., how far to the right?  Depending on the data, the <span class="tooltip">DH<span class="tooltiptext">deaths hospitalized</span></span> curves could aid hospital care evaluations, and the <span class="tooltip">HP<span class="tooltiptext">hospitalized positives</span></span> curves could
 aid planning ahead. [Upcoming: States & <span class="tooltip">DP<span class="tooltiptext">deaths positives</span></span>]</p>
-
-<br>
 
 ## Graphs & Notes
 
