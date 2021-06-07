@@ -42,8 +42,6 @@ and the problems continue, as this 23 November, 2020, piece illustrates
   </ul>
 </div>
 
-<br>
-
 <p>Hence, only a few points are highlighted here.  Perhaps the most important point to note is that the positivity rate is not a metric, hence positivity rates should not be compared.  Why isn't it a metric?  In brief, it is not “a numerical observation based on standard systems, methods, calculations, and data sources”.  Hence, the positivity rates of countries, states, or counties, for example, should not be compared.  An entity may compare rates across its administrative regions if the entity has meticulously set-up testing, recording, calculation standards across all institutions → this is rare.</p>
 
 <p>Alas, the positivity rate it is not a measure either.  It is an observation derived from non-standard measures.   It is a quotient wherein the numerator might refer to (a) people that tested positive w.r.t. any type of test, (b) positive test results regardless of testing method, (c) positive test results w.r.t. a particular test type, etc.  And, there are a variety of denominator options also.  The COVID Tracking Project blogs outline these peculiarities.</p>
