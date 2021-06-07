@@ -29,6 +29,7 @@ custom_js:
 
 The country in focus is the United States, and the data sources are [COVID Tracking Project](https://covidtracking.com){:target="\_blank"}, <a href='https://github.com/CSSEGISandData/COVID-19' target="\_blank">Johns Hopkins University & Medicine</a>, <a href='https://www.census.gov/en.html' target="\_blank">United States Census Bureau</a>, and the [United States Environment Protection Agency](https://www.epa.gov){:target="\_blank"}.
 
+<br>
 
 ## Explorations
 
