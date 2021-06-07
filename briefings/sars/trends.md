@@ -3,6 +3,7 @@ layout: default
 title: Trends of Observations per 100K
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 3
+has_children: true
 custom_css:
 - tooltips
 - generic
@@ -56,6 +57,8 @@ aid planning ahead. [Upcoming: States & <span class="tooltip">DP<span class="too
 <br>
 
 ## Graphs & Notes
+
+<p>The graphs:</p>
 
 <div style="margin-left: 35px;margin-right: 55px">
   <ul>
