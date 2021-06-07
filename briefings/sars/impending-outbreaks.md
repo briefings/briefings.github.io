@@ -80,7 +80,7 @@ its own curve.</p>
 <br>
 
 <figure>
-  <img src="/assets/images/sars/delta.png" alt="stick" style="float: middle;width:75%" />
+  <img src="/assets/images/sars/delta.png" alt="stick" style="float: middle;width:85%" />
   <figcaption>Running percentage changes</figcaption>
 </figure>
 
