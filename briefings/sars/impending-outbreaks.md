@@ -115,7 +115,7 @@ its own curve.</p>
 
   <li><a href="https://public.tableau.com/views/PercentageChangeCumulativeValuesper100KSingleState/percentagesPRD_twb?:language=en-GB&:display_count=n&:origin=viz_share_link" target="\\\_blank">Positives</a></li>
 
-  <li><a "https://public.tableau.com/views/percentagesHRD_twb/percentagesHRD_twb?:language=en-GB&:retry=yes&:display_count=n&:origin=viz_share_link" target="\\\_blank">Hospitalized</a></li>
+  <li><a href="https://public.tableau.com/views/percentagesHRD_twb/percentagesHRD_twb?:language=en-GB&:retry=yes&:display_count=n&:origin=viz_share_link" target="\\\_blank">Hospitalized</a></li>
 </ul>
 
 <br>
