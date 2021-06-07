@@ -8,8 +8,8 @@ custom_js:
 - latex
 ---
 
-# Positives
-{: .no_toc }
+# Positives/100K Percentage Change Curves
+<!-- {: .no_toc }
 
 <br>
 
@@ -18,10 +18,9 @@ custom_js:
 
 1. TOC
 {:toc}
+-->
 
 ---
-
-Positives/100K Percentage Change Curves
 
 <div>
   <div class='tableauPlaceholder' id='viz1606350521720' style='position: relative'>
