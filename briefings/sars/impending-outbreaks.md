@@ -24,7 +24,7 @@ custom_js:
 ---
 
 
-### Anticipating Outbreaks
+## Anticipating Outbreaks
 
 <p>This exploration is focused on "anticipating outbreaks via running percentage changes" of "cumulative observations per $\mathbf{\small{100K}}$ people" <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> a set of time periods.  Why such an approach?  Foremost, a mathematical outline which will make it easier to understand the discussion herein.</p>
 
@@ -106,7 +106,7 @@ its own curve.</p>
 
 <br>
 
-### Graphs
+## Graphs
 
 <p>More will be written about percentage change curves in future.  Meanwhile, the links below lead to a few graphs.  Note, the most consistently available data sets are the tests, positives, and deaths data sets.</p>
 
