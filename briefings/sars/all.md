@@ -21,7 +21,7 @@ custom_js:
 
 ---
 
-### All Curves
+### All Percentage Change Curves
 
 <div>
   <div class='tableauPlaceholder' id='viz1606317021717' style='position: relative'>
