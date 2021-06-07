@@ -21,7 +21,7 @@ custom_js:
 
 ---
 
-### Positives/100K
+### Positives/100K Percentage Change Curves
 
 <div>
   <div class='tableauPlaceholder' id='viz1606350521720' style='position: relative'>
