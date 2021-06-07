@@ -25,6 +25,7 @@ custom_js:
 
 Within Apache Spark engineers & scientists may query data [programmatically via SQL](http://spark.apache.org/docs/2.4.7/sql-getting-started.html#running-sql-queries-programmatically) or [via Dataset objects](https://databricks.com/glossary/what-are-datasets).  <span style="color: #722f37">[Add an example]</span>
 
+<br>
 
 ## Why Datasets?
 
