@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All
+title: All Curves
 parent: Impending Outbreaks
 grand_parent: SARS-CoV-2 Trends & Metrics
 nav_order: 1
@@ -40,7 +40,7 @@ All Percentage Change Curves
   <script type='text/javascript'>
       var divElement = document.getElementById('viz1606317021717');
       var vizElement = divElement.getElementsByTagName('object')[0];
-      vizElement.style.width='500px';vizElement.style.height='1477px';
+      vizElement.style.width='500px';vizElement.style.height='777px';
       var scriptElement = document.createElement('script');
       scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
       vizElement.parentNode.insertBefore(scriptElement, vizElement);
