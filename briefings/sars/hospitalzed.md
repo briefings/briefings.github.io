@@ -21,7 +21,7 @@ custom_js:
 
 ---
 
-### Hospitalized/100K Percentage Change Curves
+Hospitalized/100K Percentage Change Curves
 
 <div>
   <div class='tableauPlaceholder' id='viz1606388307733' style='position: relative'>
