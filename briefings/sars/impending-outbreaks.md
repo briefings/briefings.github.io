@@ -3,7 +3,6 @@ layout: default
 title: Impending Outbreaks
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 2
-has_children: true
 custom_css:
 - tooltips
 - generic
@@ -110,3 +109,9 @@ its own curve.</p>
 ### Graphs
 
 <p>More will be written about percentage change curves in future.  Meanwhile, the links below lead to a few graphs.  Note, the most consistently available data sets are the tests, positives, and deaths data sets.</p>
+
+* [All](https://public.tableau.com/views/percentages_twb/percentages_twb?:language=en-GB&:display_count=n&:origin=viz_share_link){:target="\_blank"}
+
+* [Positives](https://public.tableau.com/views/PercentageChangeCumulativeValuesper100KSingleState/percentagesPRD_twb?:language=en-GB&:display_count=n&:origin=viz_share_link)
+
+* [Hospitalized](https://public.tableau.com/views/percentagesHRD_twb/percentagesHRD_twb?:language=en-GB&:retry=yes&:display_count=n&:origin=viz_share_link)
