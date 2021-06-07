@@ -8,7 +8,7 @@ custom_js:
 - latex
 ---
 
-# Positives/100K Percentage Change Curves
+### Positives/100K Percentage Change Curves
 <!-- {: .no_toc }
 
 <br>
@@ -18,6 +18,7 @@ custom_js:
 
 1. TOC
 {:toc}
+
 -->
 
 ---
