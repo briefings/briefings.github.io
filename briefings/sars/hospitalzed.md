@@ -9,7 +9,7 @@ custom_js:
 ---
 
 # Hospitalized
-{: .no_toc }
+<!--{: .no_toc }
 
 <br>
 
@@ -17,7 +17,7 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+{:toc}-->
 
 ---
 
