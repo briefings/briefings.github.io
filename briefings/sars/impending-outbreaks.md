@@ -112,6 +112,6 @@ its own curve.</p>
 
 * <a href="https://public.tableau.com/views/percentages_twb/percentages_twb?:language=en-GB&:display_count=n&:origin=viz_share_link" target="\\\_blank">All</a>
 
-* [Positives](https://public.tableau.com/views/PercentageChangeCumulativeValuesper100KSingleState/percentagesPRD_twb?:language=en-GB&:display_count=n&:origin=viz_share_link)
+* [Positives](https://public.tableau.com/views/PercentageChangeCumulativeValuesper100KSingleState/percentagesPRD_twb?:language=en-GB&:display_count=n&:origin=viz_share_link){:target="\\\_blank"}
 
-* [Hospitalized](https://public.tableau.com/views/percentagesHRD_twb/percentagesHRD_twb?:language=en-GB&:retry=yes&:display_count=n&:origin=viz_share_link)
+* [Hospitalized](https://public.tableau.com/views/percentagesHRD_twb/percentagesHRD_twb?:language=en-GB&:retry=yes&:display_count=n&:origin=viz_share_link){:target="\\\_blank"}
