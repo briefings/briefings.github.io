@@ -8,7 +8,7 @@ custom_js:
 - latex
 ---
 
-### Positives/100K Percentage Change Curves
+# Positives
 <!-- {: .no_toc }
 
 <br>
@@ -17,11 +17,11 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
-
--->
+{:toc}-->
 
 ---
+
+Positives/100K Percentage Change Curves
 
 <div>
   <div class='tableauPlaceholder' id='viz1606350521720' style='position: relative'>
