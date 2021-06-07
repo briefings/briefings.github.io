@@ -110,7 +110,7 @@ its own curve.</p>
 
 <p>More will be written about percentage change curves in future.  Meanwhile, the links below lead to a few graphs.  Note, the most consistently available data sets are the tests, positives, and deaths data sets.</p>
 
-* [All](https://public.tableau.com/views/percentages_twb/percentages_twb?:language=en-GB&:display_count=n&:origin=viz_share_link){:target="\_blank"}
+* <a href="https://public.tableau.com/views/percentages_twb/percentages_twb?:language=en-GB&:display_count=n&:origin=viz_share_link" target="\_blank">All</a>
 
 * [Positives](https://public.tableau.com/views/PercentageChangeCumulativeValuesper100KSingleState/percentagesPRD_twb?:language=en-GB&:display_count=n&:origin=viz_share_link)
 
