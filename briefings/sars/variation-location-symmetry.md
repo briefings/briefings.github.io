@@ -43,4 +43,4 @@ custom_js:
   </dd>
 </dl>
 
-<p>The distributions are illustrated via candlestick graphs, discussed below.  The graphs highlight how similar or dissimilar events, e.g., death counts & rate, are across states; and how skewed, or otherwise, the events values are.  Basic statistics graphs that illustrate the each state's trends will be added to each page above.</p>
+<p>The distributions are illustrated via candlestick graphs, discussed below.  The graphs highlight how similar or dissimilar events, e.g., death counts & rate, are across states; and how skewed, or otherwise, the events values are.  Basic statistics graphs that illustrate the each state's trends will be added to each page above.  The COVID Tracking Project was terminated on the $8^{th}$ of March, 2021.</p>
