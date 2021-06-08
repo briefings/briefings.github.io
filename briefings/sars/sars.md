@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SARS-CoV-2 Trends & Metrics
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /briefings/sars
 custom_css:
