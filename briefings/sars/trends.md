@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trends of Observations per 100K
+title: Trends
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 3
 has_children: true
@@ -11,7 +11,7 @@ custom_js:
 - latex
 ---
 
-# Trends of Observations per 100K
+# Trends
 {: .no_toc }
 
 <br>
