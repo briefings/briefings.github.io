@@ -1,7 +1,7 @@
 ---
 layout: default
 title: A note about positivity
-parent: Trends of Observations per 100K
+parent: Trends
 grand_parent: SARS-CoV-2 Trends & Metrics
 nav_order: 1
 custom_js:
