@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spark Dataset & Spark SQL
-nav_order: 3
+nav_order: 2
 has_children: true
 permalink: /briefings/spark-dataset-and-spark-sql
 ---
