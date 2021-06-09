@@ -36,7 +36,7 @@ external_js:
     <label for="option_selector"></label><select id="option_selector">
     <!-- <option id="option_selector_title">Please select a ...</option> -->
     </select>
-    <script src="https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/assets/js/pages/hopkins.js" type="text/javascript"></script>
+    <script src="../../assets/js/hopkins.js" type="text/javascript"></script>
     <div id="container0004" style="height: 590px; width: 720px; margin: 0 auto"></div>
 </div>
 
