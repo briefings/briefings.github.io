@@ -3,7 +3,6 @@ layout: default
 title: Daily Distributions
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 4
-has_children: true
 custom_css:
 - tooltips
 - generic
@@ -31,10 +30,10 @@ custom_js:
     <th style="width: 13%;">Data Source</th><th style="text-align: left;">Baseline Distributions</th>
   </tr>
   <tr>
-    <td>The Atlantic's COVID Tracking Project</td><td><ul style="margin-top: 0"><li><a href='https://raw.githubusercontent.com/briefings/sars/master/graphs/spreads/pages/atlantic.html'>Unscaled observations</a></li><li><a href='../../graphs/spreads/pages/atlanticscaled.html'>Observations scaled per 100K people</a></li><li><a href='../../graphs/spreads/pages/atlanticcurrently.html'>In <span class="tooltip">ICU<span class="tooltiptext">intensive care unit</span></span> or Hospitalized Currently</a></li></ul></td>
+    <td>The Atlantic's COVID Tracking Project</td><td><ul style="margin-top: 0"><li><a href='https://briefings.github.io/sars/graphs/spreads/pages/atlantic.html'>Unscaled observations</a></li><li><a href='https://briefings.github.io/sars/graphs/spreads/pages/atlanticscaled.html'>Observations scaled per 100K people</a></li><li><a href='https://briefings.github.io/sars/graphs/spreads/pages/atlanticcurrently.html'>In <span class="tooltip">ICU<span class="tooltiptext">intensive care unit</span></span> or Hospitalized Currently</a></li></ul></td>
   </tr>
   <tr>
-    <td>Johns Hopkins</td><td><ul style="margin-top: 0"><li><a href='../../graphs/spreads/pages/hopkins.html'>Unscaled observations</a></li><li><a href='../../graphs/spreads/pages/hopkinsscaled.html'>Observations scaled per 100K people</a></li></ul></td>
+    <td>Johns Hopkins</td><td><ul style="margin-top: 0"><li><a href='https://briefings.github.io/sars/graphs/spreads/pages/hopkins.html'>Unscaled observations</a></li><li><a href='https://briefings.github.io/sars/graphs/spreads/pages/hopkinsscaled.html'>Observations scaled per 100K people</a></li></ul></td>
   </tr>
 </table>
 
