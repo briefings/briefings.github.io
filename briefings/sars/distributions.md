@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Variation, Location, Symmetry
+title: Daily Distributions
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 4
 has_children: true
@@ -11,7 +11,11 @@ custom_js:
 - latex
 ---
 
-# Variation, Location, Symmetry
+# Daily Distributions
+
+Illustrating daily measures of variation, location, & symmetry
+{: .fs-6 .fw-300 }
+
 {: .no_toc }
 
 <br>
