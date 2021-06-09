@@ -12,9 +12,7 @@ custom_js:
 ---
 
 # Daily Distributions
-
-Illustrating daily measures of variation, location, & symmetry
-{: .fs-6 .fw-300 }
+{: .no_toc }
 
 <br>
 
