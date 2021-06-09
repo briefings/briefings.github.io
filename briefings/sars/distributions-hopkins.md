@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hopkins
-parent: Variation, Location, Symmetry
+parent: Daily Distributions
 grand_parent: SARS-CoV-2 Trends & Metrics
 nav_order: 1
 custom_css:
@@ -48,7 +48,7 @@ external_js:
     <label for="option_selector"></label><select id="option_selector">
     <!-- <option id="option_selector_title">Please select a ...</option> -->
     </select>
-    <script src="https://raw.githubusercontent.com/briefings/sars/master/graphs/spreads/assets/js/pages/hopkinsscaled.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/assets/js/pages/hopkinsscaled.js" type="text/javascript"></script>
     <div id="container0011" style="height: 450px; width: 800px; margin: 0 auto"></div>
 </div>
 <div class="grid-item"></div>
