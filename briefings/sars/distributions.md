@@ -3,6 +3,7 @@ layout: default
 title: Daily Distributions
 parent: SARS-CoV-2 Trends & Metrics
 nav_order: 4
+has_children: true
 custom_css:
 - tooltips
 - generic
