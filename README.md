@@ -1,28 +1,15 @@
 <br>
 
-### Examples
-
-For *\_\_pycache\_\_*:
-
-```
-find /cygdrive/j/library/briefings/sars -type d -name "__pycache__"
-```
-
-```
-rm -r */*/__pycache__
-rm -r */*/*/__pycache__
-rm -r */*/*/*/__pycache__
-rm -r */*/*/*/*/__pycache__
-```
+**Briefings**
 
 <br>
+<br>
 
-For *.ipynb_checkpoints*:
+<br>
+<br>
 
-```
-find /cygdrive/j/library/briefings/sars -type d -name ".ipynb_checkpoints"
-```
+<br>
+<br>
 
-```
-rm -r */*/*/.ipynb_checkpoints
-```
+<br>
+<br>
