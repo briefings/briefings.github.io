@@ -27,7 +27,7 @@ custom_js:
 
 ## Examples
 
-The <span style="color: #722f37"><i>sample programs</i></span> of each table link to examples within Apache Spark programs.  The programs explore
+The <b>sample programs</b> of each table link to examples within Apache Spark programs.  The programs explore
 
 <ul style="margin-left:35px">
   <li><a href="https://github.com/briefings/stocks" target="\_blank">Apple stock prices</a></li>
